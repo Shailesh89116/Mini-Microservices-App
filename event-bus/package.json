@@ -2,18 +2,16 @@
   "name": "event-bus",
   "version": "1.0.0",
   "description": "",
-  "main": "event.js",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon event.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "nodemon": "^2.0.20"
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }

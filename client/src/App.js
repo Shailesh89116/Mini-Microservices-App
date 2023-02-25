@@ -1,18 +1,16 @@
-import CommentCreate from "./CommentCreate";
+import React from "react";
 import PostCreate from "./PostCreate";
 import PostList from "./PostList";
 
-function App() {
+const App = () => {
   return (
-    <div className="App" style={{color:'blue',alignItems:'center',textAlign:'center'}}>
-      <h2>Create a Post</h2>
-      <PostCreate/>
+    <div className="container">
+      <h1>Create Post</h1>
+      <PostCreate />
       <hr />
       <h1>Posts</h1>
-      <PostList/>
-     
+      <PostList />
     </div>
   );
-}
-
+};
 export default App;
